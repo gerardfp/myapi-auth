@@ -1,0 +1,1 @@
+web: java -jar target/myapi-auth-1.0.jar

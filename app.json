@@ -1,0 +1,5 @@
+{
+  "name": "MyApi",
+  "description": "M06 api",
+  "addons": [ "heroku-postgresql" ]
+}
