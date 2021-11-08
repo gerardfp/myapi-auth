@@ -25,7 +25,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .mvcMatchers("/hello").permitAll()
-                .mvcMatchers("/movies").authenticated()
+                .mvcMatchers("/movies").permitAll()
                 .and()
                 .oauth2ResourceServer().jwt();
     }
